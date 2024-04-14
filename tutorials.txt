@@ -1,0 +1,21 @@
+------------Setup Project-------------
+
+1. Create a react app
+2. Create a project on Firebase Website
+3. install firebase into the react app ---> 'npm install firebase'
+4. create a folder(config) into src folder then create a file(firebase.js) into config 
+5. copy all of code (firebase SDK)
+6. install Firebase CLI globaly -----> 'npm install -g firebase-tools'
+
+7. Now we will build authentication for our project
+
+8. Go to build section--select Authentication
+    choose a sign in method and go no...
+
+9. Now import getAuth from Firebase Auth into 'firebase.js'
+   and export 
+
+   ## And if we use Google for Authentication then we have to import  GoogleAuthProvider with getAuth
+
+10. create a 'component' folder inside src and create a auth.js file into 'component'
+
